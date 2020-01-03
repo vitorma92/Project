@@ -1,22 +1,22 @@
 Passos para iniciar ao Github.
 
 1* Na pasta do projeto
-git init
+'git init'
 
 2* adiciona-lo para o próximo git commit utilizando o comando
-git add "pasta ou arquivo"
+'git add "pasta ou arquivo"'
 
 3* para persistir as alterações no nosso repositório LOCAL.
-git commit -m "nome do commit"
+'git commit -m "nome do commit"'
 
 4* Add caminho remoto repositorio no Github
-git remote add "nome"vitorma92 "caminho"project
+'git remote add "nome"vitorma92 "caminho"project'
 
 5* Como nosso repositório vai ficar centralizado no Github nós vamos chamar o nosso remote de origin
-git remote add https://github.com/<SEU_LOGIN_DO_GITHUB>/<NOME_DO_REPOSITORIO>.git
+'git remote add https://github.com/<SEU_LOGIN_DO_GITHUB>/<NOME_DO_REPOSITORIO>.git'
 
 6* E agora para enviar as alteraçes nós vamos utilizar o comando
-git push <NOME_DO_REMOTE> HEAD  
+'git push <NOME_DO_REMOTE> HEAD  '
 
 (nome do remote será o origin)
 (HEAD é a versão que estamos trabalhando).
